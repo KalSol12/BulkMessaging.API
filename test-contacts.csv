@@ -1,0 +1,8 @@
+name,phone,email,notes
+Abebe Kebede,+251911111111,abebe@example.com,Developer
+Sara Tesfaye,+251922222222,sara@example.com,Designer
+Dawit Alemu,+251933333333,dawit@example.com,Manager
+Hanna Girma,+251944444444,,Tester
+,+251955555555,noname@example.com,Missing name
+Yonas Bekele,,yonas@example.com,Missing phone
+Kalkidan Tadesse,+251977777777,bademail,Invalid email
