@@ -1,0 +1,4 @@
+name,phone,email,notes
+Person A,+251911111000,a@example.com,First
+Person B,+251-911-111-000,b@example.com,Same phone different format
+Person C,+251911111002,c@example.com,New phone

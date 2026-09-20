@@ -1,5 +1,8 @@
 C:\Users\kal\Documents\BulkMessagingSystem\backend\BulkMessaging.API\bin\Debug\net10.0\appsettings.Development.json
 C:\Users\kal\Documents\BulkMessagingSystem\backend\BulkMessaging.API\bin\Debug\net10.0\appsettings.json
+C:\Users\kal\Documents\BulkMessagingSystem\backend\BulkMessaging.API\bin\Debug\net10.0\c1.json
+C:\Users\kal\Documents\BulkMessagingSystem\backend\BulkMessaging.API\bin\Debug\net10.0\g.json
+C:\Users\kal\Documents\BulkMessagingSystem\backend\BulkMessaging.API\bin\Debug\net10.0\payload.json
 C:\Users\kal\Documents\BulkMessagingSystem\backend\BulkMessaging.API\bin\Debug\net10.0\BulkMessaging.API.staticwebassets.endpoints.json
 C:\Users\kal\Documents\BulkMessagingSystem\backend\BulkMessaging.API\bin\Debug\net10.0\BulkMessaging.API.exe
 C:\Users\kal\Documents\BulkMessagingSystem\backend\BulkMessaging.API\bin\Debug\net10.0\BulkMessaging.API.deps.json
@@ -114,6 +117,7 @@ C:\Users\kal\Documents\BulkMessagingSystem\backend\BulkMessaging.API\obj\Debug\n
 C:\Users\kal\Documents\BulkMessagingSystem\backend\BulkMessaging.API\obj\Debug\net10.0\BulkMessaging.API.csproj.CoreCompileInputs.cache
 C:\Users\kal\Documents\BulkMessagingSystem\backend\BulkMessaging.API\obj\Debug\net10.0\BulkMessaging.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\kal\Documents\BulkMessagingSystem\backend\BulkMessaging.API\obj\Debug\net10.0\BulkMessaging.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kal\Documents\BulkMessagingSystem\backend\BulkMessaging.API\obj\Debug\net10.0\BulkMessaging.API.sourcelink.json
 C:\Users\kal\Documents\BulkMessagingSystem\backend\BulkMessaging.API\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\Users\kal\Documents\BulkMessagingSystem\backend\BulkMessaging.API\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\kal\Documents\BulkMessagingSystem\backend\BulkMessaging.API\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
