@@ -22,6 +22,14 @@ public class GroupsController : ControllerBase
     {
         var groups = await _context.Groups
             .OrderByDescending(g => g.CreatedAt)
+            .Select(g => new
+            {
+                g.Id,
+                g.Name,
+                g.Description,
+                g.CreatedAt,
+                ContactCount = g.Contacts.Count,
+            })
             .ToListAsync();
 
         return Ok(groups);
@@ -31,7 +39,17 @@ public class GroupsController : ControllerBase
     [HttpGet("{id}")]
     public async Task<ActionResult<Group>> GetGroup(int id)
     {
-        var group = await _context.Groups.FindAsync(id);
+        var group = await _context.Groups
+            .Where(g => g.Id == id)
+            .Select(g => new
+            {
+                g.Id,
+                g.Name,
+                g.Description,
+                g.CreatedAt,
+                ContactCount = g.Contacts.Count,
+            })
+            .SingleOrDefaultAsync();
 
         if (group == null)
         {
