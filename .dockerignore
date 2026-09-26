@@ -1,0 +1,8 @@
+**/bin/
+**/obj/
+**/.vs/
+**/.vscode/
+appsettings.Development.json
+.env*
+*.user
+Properties/launchSettings.json

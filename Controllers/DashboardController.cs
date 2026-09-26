@@ -1,10 +1,12 @@
 using BulkMessaging.API.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BulkMessaging.API.Controllers;
 
 [ApiController]
+[Authorize(Policy = "PasswordChanged")]
 [Route("api/dashboard")]
 public class DashboardController : ControllerBase
 {

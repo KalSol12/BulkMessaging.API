@@ -4,9 +4,11 @@ using BulkMessaging.API.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using BulkMessaging.API.Services;
+using Microsoft.AspNetCore.Authorization;
 namespace BulkMessaging.API.Controllers;
 
 [ApiController]
+[Authorize(Policy = "PasswordChanged")]
 [Route("api")]
 public class CampaignsController : ControllerBase
 {
@@ -403,5 +405,3 @@ public class CampaignsController : ControllerBase
         return Ok(ToSummary(campaign, campaign.Group?.Name ?? string.Empty));
     }
 }
-
-

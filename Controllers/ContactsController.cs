@@ -2,6 +2,7 @@ using BulkMessaging.API.Data;
 using BulkMessaging.API.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 using BulkMessaging.API.DTOs;
 using CsvHelper;
@@ -12,6 +13,7 @@ namespace BulkMessaging.API.Controllers;
 using BulkMessaging.API.Services;
 
 [ApiController]
+[Authorize(Policy = "PasswordChanged")]
 [Route("api")]
 public class ContactsController : ControllerBase
 {

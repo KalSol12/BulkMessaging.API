@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("57c9e644-f34d-4087-b59a-8b79bc976798")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("BulkMessaging.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54e4b13ab13b86069cf3e562e86f23a6633adc7e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a09e192400d09e2033e9ba10c719502fdaaf07f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("BulkMessaging.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BulkMessaging.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

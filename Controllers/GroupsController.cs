@@ -2,10 +2,12 @@ using BulkMessaging.API.Data;
 using BulkMessaging.API.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BulkMessaging.API.Controllers;
 
 [ApiController]
+[Authorize(Policy = "PasswordChanged")]
 [Route("api/[controller]")]
 public class GroupsController : ControllerBase
 {
